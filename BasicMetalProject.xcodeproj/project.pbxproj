@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B7E4CC8E1FF6B4B8001086A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E4CC8D1FF6B4B8001086A4 /* AppDelegate.swift */; };
-		B7E4CC901FF6B4B8001086A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E4CC8F1FF6B4B8001086A4 /* ViewController.swift */; };
 		B7E4CC921FF6B4B8001086A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E4CC911FF6B4B8001086A4 /* Assets.xcassets */; };
 		B7E4CC951FF6B4B8001086A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E4CC931FF6B4B8001086A4 /* Main.storyboard */; };
 		B7E4CCA11FF6B4B9001086A4 /* BasicMetalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E4CCA01FF6B4B9001086A4 /* BasicMetalProjectTests.swift */; };
+		B7E4CCAC1FF6B5B8001086A4 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E4CCAB1FF6B5B8001086A4 /* MetalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,6 @@
 /* Begin PBXFileReference section */
 		B7E4CC8A1FF6B4B8001086A4 /* BasicMetalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMetalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E4CC8D1FF6B4B8001086A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7E4CC8F1FF6B4B8001086A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7E4CC911FF6B4B8001086A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7E4CC941FF6B4B8001086A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7E4CC961FF6B4B8001086A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +34,7 @@
 		B7E4CC9C1FF6B4B9001086A4 /* BasicMetalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMetalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E4CCA01FF6B4B9001086A4 /* BasicMetalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMetalProjectTests.swift; sourceTree = "<group>"; };
 		B7E4CCA21FF6B4B9001086A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E4CCAB1FF6B5B8001086A4 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +77,11 @@
 			isa = PBXGroup;
 			children = (
 				B7E4CC8D1FF6B4B8001086A4 /* AppDelegate.swift */,
-				B7E4CC8F1FF6B4B8001086A4 /* ViewController.swift */,
 				B7E4CC911FF6B4B8001086A4 /* Assets.xcassets */,
 				B7E4CC931FF6B4B8001086A4 /* Main.storyboard */,
 				B7E4CC961FF6B4B8001086A4 /* Info.plist */,
 				B7E4CC971FF6B4B8001086A4 /* BasicMetalProject.entitlements */,
+				B7E4CCAB1FF6B5B8001086A4 /* MetalView.swift */,
 			);
 			path = BasicMetalProject;
 			sourceTree = "<group>";
@@ -197,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7E4CC901FF6B4B8001086A4 /* ViewController.swift in Sources */,
+				B7E4CCAC1FF6B5B8001086A4 /* MetalView.swift in Sources */,
 				B7E4CC8E1FF6B4B8001086A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
